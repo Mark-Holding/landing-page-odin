@@ -1,0 +1,44 @@
+body {
+    background-color: #1f2937;
+
+}
+
+/* header section */
+header {
+    height: 60px;
+}
+
+.header {
+    max-width: 70%;
+    margin: auto;
+    display: flex;
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.left-header {
+    flex: 1;
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.right-header {
+    flex: 1;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.right-header ul {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+}
+
+/* Hero section */
+
